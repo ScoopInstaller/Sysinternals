@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$Upstream = 'niheaven/scoop-sysinternals:main'
+    [String]$Upstream = 'ScoopInstaller/Sysinternals:main'
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
